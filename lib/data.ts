@@ -71,29 +71,38 @@ export const projectsData = [
       "A writing platform with portals for users, writers, and administrators. Includes dashboards, proposal submission, budget handling, and real-time messaging for smooth academic project management.",
     tags: ["Next.js", "TypeScript", "Redux", "Tailwind", "NextUI", "Axios"],
     imageUrl: essay9Img, // replace with actual import
+    projectUrl: "https://essay-naija.vercel.app/",
+    githubUrl: "https://github.com/oladipupostephen/Essay-naija",
   },
   {
     title: "E-waste Bin Monitor",
     description:
       "Smart IoT waste bin monitoring app with real-time data visualization. Integrated Leaflet.js for maps and React charts for graphical representation of IoT data.",
     tags: ["React", "Firebase", "Tailwind", "Vite", "Leaflet.js", "Charts"],
-    imageUrl: ewasteImg, // replace with actual import
+    imageUrl: ewasteImg,
+    projectUrl: "https://e-wastebin-monitor.vercel.app/",
+    githubUrl: "https://github.com/oladipupostephen/E-wastebin-monitor",
   },
   {
     title: "Todo Application",
     description:
       "Task management app with filtering, completion tracking, and smooth responsive design. Showcases modern React development and state management with Redux Toolkit.",
     tags: ["React", "TypeScript", "Redux Toolkit", "CSS3"],
-    imageUrl: todoImg, // replace with actual import
+    imageUrl: todoImg,
+    projectUrl: "https://redux-todo-list-topaz.vercel.app/",
+    githubUrl: "https://github.com/oladipupostephen/Redux-Todo-List",
   },
   {
     title: "BlooMart E-commerce",
     description:
       "E-commerce web app with shopping cart, product showcase, and responsive design built using vanilla JavaScript and CSS, without external frameworks.",
     tags: ["HTML5", "CSS3", "JavaScript"],
-    imageUrl: bloomartImg, // replace with actual import
+    imageUrl: bloomartImg,
+    projectUrl: "https://bloomart-omega.vercel.app/",
+    githubUrl: "https://github.com/oladipupostephen/bloomart",
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
